@@ -1,0 +1,154 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input, button{
+    list-style: none;
+    outline: none;
+}
+
+
+
+
+.footer{
+    background-color: #f1f3f8;
+    padding: 80px 10px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.footer_container{
+    max-width: 1112px;
+    margin: 0 auto;
+    
+}
+
+.footer_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #e6e6e6;
+
+}
+
+
+
+
+.footer_grid_item:nth-child(2)
+{
+    margin-left: 80px;
+}
+
+
+.footer_grid_item_title{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.footer_grid_item_text{
+    color: #c0bab6;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+
+.footer_item_link{
+    margin-bottom: 18px;
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.footer_grid_item_form{
+    width: 100%;
+
+}
+
+.footer_grid_item_form_input{
+    width: 62%;
+    padding: 16px 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-right: 2px;
+    border: 2px solid #ced4da;
+
+    transition: 0.3s linear;
+
+}
+
+.footer_grid_item_form_input:focus{
+    border-color: #352961;
+}
+
+.footer_grid_item_form_button{
+
+    background-color: #352961;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 18px 10px;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+.footer_bottom{
+    text-align: center;
+    padding: 60px 0;
+    color: c0bab6;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+    
+    .footer_container{
+        max-width: 860px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .footer_container{
+        max-width: 520px;
+    }
+
+    .footer_grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3;
+    }
+
+    .footer_grid_item{
+        margin-bottom: 30px;
+    }
+
+    .footer_grid_item:nth-child(2)
+    {
+        margin-left: 0px;
+        
+    }
+
+    .footer_grid_item_form_input{
+        width: 80.5%;
+        box-sizing: border-box;
+    }
+    
+    .footer_grid_item_form_button{
+        width: 19%;
+        box-sizing: border-box;
+    }
+    
+}

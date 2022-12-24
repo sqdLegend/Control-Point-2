@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Starters",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit." ,
+        "beginprice": "7",
+        "perDate": "PER MONTH",
+        "subtext": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim nobis aspernatur saepe dolores?"
+    },
+    
+    {
+        "title": "Premium",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit." ,
+        "beginprice": "75",
+        "perDate": "PER MONTH",
+        "subtext": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim nobis aspernatur saepe dolores?"
+    },
+
+    {
+        "title": "Enterprise",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit." ,
+        "beginprice": "390",
+        "perDate": "PER MONTH",
+        "subtext": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim nobis aspernatur saepe dolores?"
+    }
+
+]

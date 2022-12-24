@@ -1,0 +1,195 @@
+
+
+
+.Approach{
+    padding: 140px 0 100px;
+    background-color: #f1f3f8;
+}
+
+.approach_container{
+    max-width: 1112px;
+    margin: 0 auto;
+}
+
+
+.approach_top_block{
+    width: 550px;
+    margin-bottom: 60px;
+    opacity: 0;
+}
+
+.approach_top_block_title{
+    color: #352961;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.approach_top_block_text{
+    line-height: 28px;
+    color: #c0bab6;
+    font-size: 18px;
+}
+
+
+.approach_cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.approach_card{
+    opacity: 0;
+    text-align: center;
+    padding: 40px 30px;
+    box-sizing: border-box;
+    width: 31.5%;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+}
+
+
+.approach_card_image{
+    margin-bottom: 20px;
+}
+.approach_card_image>img{
+    width: 60px;
+}
+
+.approach_card:nth-child(2) .approach_card_image>img{
+    width: 55px;
+    height: 55px;
+}
+
+
+
+.approach_card_title{
+    color: #352961;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 25px;
+
+}
+
+
+.approach_card_text{
+    color: #c0bab6;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+    .approach_container{
+        max-width: 860px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .approach_container{
+        max-width: 520px;
+    }
+
+    .approach_cards{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .approach_card{
+        width: 100%;
+        margin-bottom: 50px;
+
+    }
+
+    .approach_top_block_text{
+       font-size: 16px;
+       width: 520px;
+    }
+    
+
+}
+
+
+.approaches_top_animation{
+    animation-name: approaches-top-animation;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes approaches-top-animation {
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.approach_card_animation{
+    animation-name: approaches-card-animation;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+}
+
+@keyframes approaches-card-animation {
+    from{
+        opacity: 0;
+        transform: translateY(150px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes approaches-card-animation {
+    from{
+        opacity: 0;
+        transform: translateY(150px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.approach_card1_animation{
+    animation-name: approaches-card-animation;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+}
+
+.approach_card2_animation{
+    animation-name: approaches-card-animation;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.3s;
+}
+
+.approach_card3_animation{
+    animation-name: approaches-card-animation;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.9s;
+}
+
+
+
+
+

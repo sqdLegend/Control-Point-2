@@ -1,0 +1,156 @@
+
+
+
+.services{
+    padding: 150px 0 200px;
+    background-color: #f1f3f8;
+    overflow: hidden;
+
+}
+
+.services_container{
+    max-width: 1112px;
+    margin: 0 auto;
+}
+
+.services_top_block{
+    margin-bottom: 50px;
+}
+
+.services_top_block_title{
+    color: #352961;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.services_top_block_text{
+    max-width: 540px;
+    line-height: 28px;
+    color: #c0bab6;
+    font-size: 18px;
+}
+
+.services_slider_item_holder{
+    padding: 15px 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.services_slider_row_item{
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: 0.2s linear;
+}
+
+.services_slider_row_item:hover{
+    transform: translateY(-10px);
+}
+
+
+
+.services_slider_row_item_progressbar{
+    height: 6px;
+    width: 100%;
+    background-color: #352961;
+    position: relative;
+}
+
+.row_item_progressbar_layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    z-index: 1;
+    height: 6px;
+
+    transition: 0.3s linear;
+}
+
+.services_slider_row_item:hover .row_item_progressbar_layer{
+    width: 100%;
+    background-color: #dc3545;
+}
+
+
+
+.services_slider_row_item_info{
+    padding: 60px  50px;
+}
+
+.services_slider_row_item_info_cirlce{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fafafa;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.2s linear;
+}
+
+.services_slider_row_item_info_cirlce>img{
+    width: 30px;
+    height: 30px;
+}
+
+.services_slider_row_item:hover .services_slider_row_item_info_cirlce{
+    background-color: #dc35464b;
+    transform: translateY(-10px);
+}
+
+.services_slider_row_item_info_title{
+    text-transform: uppercase;
+    color: #352961;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.services_slider_row_item_info_text{
+    max-width: 540px;
+    line-height: 28px;
+    color: #c0bab6;
+    font-size: 18px;
+}
+
+.slick-dots{
+    bottom: -80px;
+}
+
+
+
+@media (max-width: 1024px)
+{
+    .services_container{
+        max-width: 860px;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .services_container{
+        max-width: 520px;
+    }
+
+    .services_top_block_title{
+        font-size: 42px;
+
+    }
+    
+    .services_top_block_text{
+        max-width: 520px;
+        font-size: 16px;
+    }
+}
+
+
+
